@@ -52,6 +52,7 @@ func main() {
 
 	// Parse command line parameters
 	flag.Usage = usage
+	flag.Parse()
 
 	// Creates G3N application
 	gv := new(g3nView)
